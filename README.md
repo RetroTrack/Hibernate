@@ -1,9 +1,8 @@
-# Fabric Example Mod
+# Hibernate
 
-## Setup
+## Info
+This is a fabric port of the spigot plugin "Hibernate 2.0".
+Original: https://www.spigotmc.org/resources/hibernate.4441/
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+##Development
+Main things are done, and everything works, just the config and / commands don't yet work.
