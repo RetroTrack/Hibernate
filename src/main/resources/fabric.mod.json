@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "hibernate",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Hibernate Fabric",
+  "description": "Fabric port of the original Hibernate Plugin",
   "authors": [
-    "Me!"
+    "Fabric Port - Retro",
+    "Plugin - woutwoot"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.spigotmc.org/resources/hibernate.4441/",
+    "sources": "https://github.com/RetroTrack/Hibernate"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/hibernate/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "ga.volar.hibernate.Hibernate"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "hibernate.mixins.json"
   ],
 
   "depends": {
